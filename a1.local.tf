@@ -5,6 +5,7 @@ locals {
   project_tags = {                  #project tag is a name custom value
     Owner       = local.owner       #we are defining expression in key value format sap
     Environment = local.environment #dev
-    Project     = "KYN"             #custom value
+    Project     = "KYN"    
+    createdby  = "gopal"         #custom value
   }
 }
